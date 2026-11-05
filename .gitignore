@@ -1,0 +1,4 @@
+# 索引仓库：只跟踪根级 README 与配置，子项目各自独立管理。
+/*
+!/.gitignore
+!/README.md
