@@ -8,16 +8,16 @@
 
 | 目录 | 是什么 | 主要技术 | 远端 |
 |---|---|---|---|
-| [`IcedReader`](IcedReader/README.md) | Windows 桌面电子书阅读器：EPUB 2/3 + PDF，浅色纸、绿色版 | Tauri 2 · React 19 · Rust | [wafbys/IcedReader](https://github.com/wafbys/IcedReader) |
-| [`IcedPicViewer`](IcedPicViewer/README.md) | Windows 本地图片 / 视频查看器：瀑布流、压缩包展平、视频缩略图 | WinUI 3 · .NET 11（Core + WinUI 双工程） | [wafbys/IcedPicViewer](https://github.com/wafbys/IcedPicViewer) |
-| [`IcedSub`](IcedSub/README.md) | 多源字幕搜索 / 下载 CLI：OpenSubtitles、ASSRT，可生成 TMDB / Wikidata 规范文件名 | .NET 10 | [wafbys/IcedSub](https://github.com/wafbys/IcedSub) |
-| [`t66y-archiver`](t66y-archiver/README.md) | 把 t66y 帖子全部分页抓成单个自包含 HTML（图片 base64 内嵌） | Python 标准库 | 本地，非 git 仓库 |
-| [`IcedUserScript`](IcedUserScript/README.md) | 个人 Tampermonkey 脚本集，目前为 `cjk-mono` 全站 CJK / 等宽字体替换 | JavaScript（用户脚本） | [wafbys/IcedUserScript](https://github.com/wafbys/IcedUserScript) |
-| [`singlefile-settings-HFA`](singlefile-settings-HFA/README.md) | SingleFile 高保真网页存档配置，单 JSON，调整通过 git 留痕 | SingleFile 配置 | [wafbys/singlefile-settings-HFA](https://github.com/wafbys/singlefile-settings-HFA) |
-| [`ea-learning`](ea-learning/README.md) | 跟着《Evolutionary Architecture by Example》逐章学习 .NET 架构演进：笔记、练习、ADR | .NET 10 · Markdown | [wafbys/ea-learning](https://github.com/wafbys/ea-learning) |
-| [`evolutionary-architecture-by-example`](evolutionary-architecture-by-example/README.adoc) | 上述课程的上游参考实现 clone，保持 `main` 干净，不提交个人笔记 | .NET | [上游仓库](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) |
-| [`os-01-boot-shell`](os-01-boot-shell/README.md) | 从 BIOS 引导扇区到串口 shell 的最小 OS 阶梯（x86 + NASM + QEMU），当前只有文档 | x86 汇编 · QEMU | 本地仓库，无 remote |
-| [`stamp-files`](stamp-files/README.md) | 按数据库记录强制设置文件时间戳的 Windows CLI：哈希匹配、批量打戳、数据库维护 | Go 1.27 | [wafbys/stamp-files](https://github.com/wafbys/stamp-files) |
+| [`IcedReader`](https://github.com/wafbys/IcedReader) | Windows 桌面电子书阅读器：EPUB 2/3 + PDF，浅色纸、绿色版 | Tauri 2 · React 19 · Rust | [wafbys/IcedReader](https://github.com/wafbys/IcedReader) |
+| [`IcedPicViewer`](https://github.com/wafbys/IcedPicViewer) | Windows 本地图片 / 视频查看器：瀑布流、压缩包展平、视频缩略图 | WinUI 3 · .NET 11（Core + WinUI 双工程） | [wafbys/IcedPicViewer](https://github.com/wafbys/IcedPicViewer) |
+| [`IcedSub`](https://github.com/wafbys/IcedSub) | 多源字幕搜索 / 下载 CLI：OpenSubtitles、ASSRT，可生成 TMDB / Wikidata 规范文件名 | .NET 10 | [wafbys/IcedSub](https://github.com/wafbys/IcedSub) |
+| `t66y-archiver` | 把 t66y 帖子全部分页抓成单个自包含 HTML（图片 base64 内嵌） | Python 标准库 | 本地，非 git 仓库 |
+| [`IcedUserScript`](https://github.com/wafbys/IcedUserScript) | 个人 Tampermonkey 脚本集，目前为 `cjk-mono` 全站 CJK / 等宽字体替换 | JavaScript（用户脚本） | [wafbys/IcedUserScript](https://github.com/wafbys/IcedUserScript) |
+| [`singlefile-settings-HFA`](https://github.com/wafbys/singlefile-settings-HFA) | SingleFile 高保真网页存档配置，单 JSON，调整通过 git 留痕 | SingleFile 配置 | [wafbys/singlefile-settings-HFA](https://github.com/wafbys/singlefile-settings-HFA) |
+| [`ea-learning`](https://github.com/wafbys/ea-learning) | 跟着《Evolutionary Architecture by Example》逐章学习 .NET 架构演进：笔记、练习、ADR | .NET 10 · Markdown | [wafbys/ea-learning](https://github.com/wafbys/ea-learning) |
+| [`evolutionary-architecture-by-example`](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) | 上述课程的上游参考实现 clone，保持 `main` 干净，不提交个人笔记 | .NET | [上游仓库](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) |
+| `os-01-boot-shell` | 从 BIOS 引导扇区到串口 shell 的最小 OS 阶梯（x86 + NASM + QEMU），当前只有文档 | x86 汇编 · QEMU | 本地仓库，无 remote |
+| [`stamp-files`](https://github.com/wafbys/stamp-files) | 按数据库记录强制设置文件时间戳的 Windows CLI：哈希匹配、批量打戳、数据库维护 | Go 1.27 | [wafbys/stamp-files](https://github.com/wafbys/stamp-files) |
 
 ## 约定
 
