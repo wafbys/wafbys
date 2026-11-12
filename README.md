@@ -17,6 +17,7 @@
 | [`ea-learning`](ea-learning/README.md) | 跟着《Evolutionary Architecture by Example》逐章学习 .NET 架构演进：笔记、练习、ADR | .NET 10 · Markdown | [wafbys/ea-learning](https://github.com/wafbys/ea-learning) |
 | [`evolutionary-architecture-by-example`](evolutionary-architecture-by-example/README.adoc) | 上述课程的上游参考实现 clone，保持 `main` 干净，不提交个人笔记 | .NET | [上游仓库](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) |
 | [`os-01-boot-shell`](os-01-boot-shell/README.md) | 从 BIOS 引导扇区到串口 shell 的最小 OS 阶梯（x86 + NASM + QEMU），当前只有文档 | x86 汇编 · QEMU | 本地仓库，无 remote |
+| [`stamp-files`](stamp-files/README.md) | 按数据库记录强制设置文件时间戳的 Windows CLI：哈希匹配、批量打戳、数据库维护 | Go 1.27 | [wafbys/stamp-files](https://github.com/wafbys/stamp-files) |
 
 ## 约定
 
