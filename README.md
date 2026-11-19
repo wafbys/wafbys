@@ -1,6 +1,6 @@
 # Src
 
-个人源码工作区索引。本仓库（`wafbys/wafbys`）是两台机器的**唯一索引**，只跟踪 `README.md` 与 `.gitignore`；本地 `Src` 根目录不再作为 git 仓库，下面每个子目录仍是独立项目，各自管理版本、分支与提交。
+个人源码工作区索引，同时收录 `Src` 外的 `Bin` 工具箱。本仓库（`wafbys/wafbys`）是两台机器的**唯一索引**，只跟踪 `README.md` 与 `.gitignore`；本地 `Src` 根目录不再作为 git 仓库，下面每个子目录仍是独立项目，各自管理版本、分支与提交。
 
 > 适用范围：顶层目录导航。各项目的开发说明、构建命令与硬性规则以该项目自己的 `README.md` / `AGENTS.md` 为准，本文件不重复。
 
@@ -22,9 +22,18 @@
 | [`stamp-files`](https://github.com/wafbys/stamp-files) | 按数据库记录强制设置文件时间戳的 Windows CLI：哈希匹配、批量打戳、数据库维护 | Go 1.27 | [wafbys/stamp-files](https://github.com/wafbys/stamp-files) |
 | `winconfig` | Windows 11 开发环境基线脚本：固定目录、固定版本、固定换行策略 | PowerShell 7 · winget | 私有 |
 
+## 工具仓库
+
+`Bin` 不在 `Src` 下，单独列出。
+
+| 目录 | 是什么 | 主要技术 | 远端 |
+|---|---|---|---|
+| `Bin`（`C:\Users\YF\Bin`） | Windows 日常工具箱：媒体整理、字体安装、网页文章存档、目录备份、OpenCode 更新 | Python · PowerShell · Bash | [wafbys/Bin](https://github.com/wafbys/Bin) |
+
 ## 约定
 
 - 本索引仓库只跟踪 `README.md` 与 `.gitignore`，不跟踪任何子项目文件；本地 `Src` 根目录不再是 git 仓库。
+- `Bin` 不在 `Src` 下，单独列在「工具仓库」；文件与提交仍由 `Bin` 仓库自己管理，本仓库只维护索引。
 - 两台机器都以本仓库的 README 为索引；本地 `Src/README.md` 已弃用，不再更新。
 - 私有仓库在表中只保留名称，远端列标「私有」，不提供链接。
 - 子目录里的 `.git` 各自独立，本索引仓库不会把它们当子模块，也不配置子项目的 remote。
