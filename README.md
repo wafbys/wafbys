@@ -9,12 +9,13 @@
 | 目录 | 是什么 | 主要技术 | 远端 |
 |---|---|---|---|
 | [`IcedReader`](https://github.com/wafbys/IcedReader) | Windows 桌面电子书阅读器：EPUB 2/3 + PDF，浅色纸、绿色版 | Tauri 2 · React 19 · Rust | [wafbys/IcedReader](https://github.com/wafbys/IcedReader) |
-| [`IcedPicViewer`](https://github.com/wafbys/IcedPicViewer) | Windows 本地图片 / 视频查看器：瀑布流、压缩包展平、视频缩略图 | WinUI 3 · .NET 11（Core + WinUI 双工程） | [wafbys/IcedPicViewer](https://github.com/wafbys/IcedPicViewer) |
+| [`IcedPicViewer`](https://github.com/wafbys/IcedPicViewer) | Windows 本地图片 / 视频查看器：瀑布流、压缩包展平、FFmpeg 视频封面、动图 GIF/WebP、LibVLC 软渲染回退 | WinUI 3 · .NET 11（Core + WinUI 双工程） | [wafbys/IcedPicViewer](https://github.com/wafbys/IcedPicViewer) |
+| `IcedBTDig` | 本机 DHT 玩具索引器：Mainline DHT 爬虫 + BEP51 采样，SQLite + Meilisearch 中文搜索，只拉元数据 | Rust · SQLite · Meilisearch | 私有 |
 | [`SavorReader`](https://github.com/wafbys/SavorReader) | Windows 本地 EPUB/PDF 书库与阅读器：WebView2 渲染、SQLite 书库 | WinUI 3 · .NET 11（Core + WinUI 双工程） | [wafbys/SavorReader](https://github.com/wafbys/SavorReader) |
 | `IcedReel` | 视频库整理工具：逻辑目录命名、NFO 生成、单条展示与终端海报 | Go 1.27 | 私有 |
 | [`IcedSub`](https://github.com/wafbys/IcedSub) | 多源字幕搜索 / 下载 CLI：OpenSubtitles、ASSRT，可生成 TMDB / Wikidata 规范文件名 | .NET 10 | [wafbys/IcedSub](https://github.com/wafbys/IcedSub) |
 | `t66y-archiver` | 把 t66y 帖子全部分页抓成单个自包含 HTML（图片 base64 内嵌） | Python 标准库 | 私有 |
-| [`IcedUserScript`](https://github.com/wafbys/IcedUserScript) | 个人 Tampermonkey 脚本集，目前为 `cjk-mono` 全站 CJK / 等宽字体替换 | JavaScript（用户脚本） | [wafbys/IcedUserScript](https://github.com/wafbys/IcedUserScript) |
+| [`IcedUserScript`](https://github.com/wafbys/IcedUserScript) | 个人 Tampermonkey 脚本集：CJK / 等宽字体替换、微信读书截图与按序导出 | JavaScript（用户脚本） | [wafbys/IcedUserScript](https://github.com/wafbys/IcedUserScript) |
 | [`singlefile-settings-HFA`](https://github.com/wafbys/singlefile-settings-HFA) | SingleFile 高保真网页存档配置，单 JSON，调整通过 git 留痕 | SingleFile 配置 | [wafbys/singlefile-settings-HFA](https://github.com/wafbys/singlefile-settings-HFA) |
 | `ea-learning` | 跟着《Evolutionary Architecture by Example》逐章学习 .NET 架构演进：笔记、练习、ADR | .NET 10 · Markdown | 私有 |
 | [`evolutionary-architecture-by-example`](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) | 上述课程的上游参考实现 clone，保持 `main` 干净，不提交个人笔记 | .NET | [上游仓库](https://github.com/evolutionary-architecture/evolutionary-architecture-by-example) |
